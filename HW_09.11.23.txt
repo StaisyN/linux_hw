@@ -1,0 +1,71 @@
+  localhost:/home# history
+   0 cd /home
+   1 ls
+   2 mkdir -p animals/dogs
+   3 mkdir -p animals/cats
+   4 mkdir -p animals/fisch
+   5 ls -l
+   6 tree
+   7 touch animals/dogs/pluto.txt
+   8 touch animals/cats/garfield.txt
+   9 touch animals/fish/nemo.txt
+  10 ls -la
+  11 tree
+  12 mkdir planets
+  13 cd /opt
+  14 touch Mercury.txt
+  15 touch Venus.txt
+  16 touch Mars.txt
+  17 touch Jupiter.txt
+  18 ls
+  19 cd /home
+  20 mkdir /opt
+  21 mkdir opt
+  22 ls
+  23 opt/Mercury /planets
+  24 opt/Mercury /home/planets
+  25 mv /opt/Mercury /home/planets
+  26 mv Mercury /planets
+  27 cd opt
+  28 mv /opt/Mercury.txt /home/planets
+  29 mv /opt/Venus.txt /home/planets
+  30 mv /opt/Mars.txt /home/planets
+  31 mv /opt/Jupiter.txt /home/planets
+  32 tree
+  33 cd home
+  34 cd /home
+  35 tree
+  36 cd /tmp
+  37 ls
+  38 touch adam.txt
+  39 ls -a
+  40 cd /humans
+  41 cd /home
+  42 mkdir /humans
+  43 ls
+  44 pwd
+  45 tree
+  46 mkdir humans
+  47 ls
+  48 cd humans
+  49 cd /tmp
+  50 touch adam.txt
+  51 cd /tmp/adam.txt /home/humans
+  52 cp /tmp/adam.txt /home/humans
+  53 tree
+  54 ls
+  55 cd home/humans
+  56 cd /home/humans
+  57 tree
+  58 cd /tmp
+  59 touch evA.txt
+  60 mv /tmp/evA.txt /opt/eve.txt
+  61 mv /opt/eve.txt /home/humans
+  62 tree /home/humans/
+  63 cd /home
+  64 history
+
+
+
+
+
